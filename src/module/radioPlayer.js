@@ -68,7 +68,7 @@ export const radioPlayerInit = () => {
 audio.muted = !audio.muted
   })
 
-  radioVolume.value = audio.volume * 10;
+  radioVolume.value = audio.volume * 100;
 
   radioPlayerInit.stop = () => {
     audio.pause();
